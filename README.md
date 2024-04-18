@@ -14,11 +14,3 @@ The project utilizes YOLOv9, integrated via the Roboflow library, to identify an
 - OpenCV
 - Roboflow
 
-### Installation
-
-Clone the repository and install the required Python libraries:
-
-```bash
-git clone https://github.com/noushin94/polyp-detection-yolov9.git
-cd polyp-detection-yolov9
-pip install -r requirements.txt
