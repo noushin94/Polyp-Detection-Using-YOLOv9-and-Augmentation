@@ -2,7 +2,10 @@
 
 Welcome to the repository for polyp detection using the YOLOv9 model with various data augmentation techniques. This project demonstrates the effectiveness of the YOLOv9 model in detecting polyps in colonoscopy images and explores different augmentation methods to enhance model performance.
 
-![Polyp Detection](https://raw.githubusercontent.com/your-repository/path/to/image_page1_0.png)
+
+
+
+
 
 ## 📋 Table of Contents
 1. [Introduction](#introduction)
@@ -19,13 +22,16 @@ Welcome to the repository for polyp detection using the YOLOv9 model with variou
 
 Cancer is one of the leading causes of mortality worldwide. Colorectal cancer (CRC) is particularly deadly, with polyps being early indicators of potential malignancies. Early detection through endoscopy and advanced deep learning models can significantly improve treatment outcomes.
 
-![Colonoscopy Process](https://raw.githubusercontent.com/your-repository/path/to/image_page3_0.png)
+<img width="282" alt="image" src="https://github.com/user-attachments/assets/a71bee8b-4a52-4e19-968a-b6e78a280d8a">
+
 
 ## 🧠 YOLOv9 Architecture
 
 In the latest version of YOLOv9, modern deep neural networks incorporate deeper layers to enhance object detection accuracy. However, during the feedforward process, many informative features of the input may be lost. YOLOv9 addresses this issue with a new architecture named GELAN, designed to capture the most informative features and process them efficiently.
 
-![YOLOv9 Architecture](https://raw.githubusercontent.com/your-repository/path/to/image_page5_0.png)
+
+<img width="390" alt="image" src="https://github.com/user-attachments/assets/19a0d535-1f16-40e9-b096-517b9279b260">
+
 
 Reversible architectures, masked modeling, and deep supervision are three distinct methods used to enhance neural networks' capability to retain and manipulate meaningful information throughout training and inference processes. YOLOv9 introduces 'Programmable Gradient Information' (PGI), which adapts the main propagation technique originally used in deep supervision by programming it to enhance meaningful feature extraction.
 
@@ -64,7 +70,8 @@ Data augmentation is crucial for training deep neural networks, especially when 
 ### 🔗 Transformation Chains
 - **Sequential Augmentation**
 
-![Augmentation Techniques](https://raw.githubusercontent.com/your-repository/path/to/image_page11_0.png)
+﻿﻿﻿![Picture1](https://github.com/user-attachments/assets/a6277425-f175-4fe4-be3c-e095e57fd53a)
+
 
 ## 🔬 Experiments
 
@@ -72,7 +79,9 @@ Data augmentation is crucial for training deep neural networks, especially when 
 
 The pre-trained YOLOv9 model was fine-tuned on the Kvasir dataset. Initial training results showed promising improvements in polyp detection accuracy.
 
-![Training Results](https://raw.githubusercontent.com/your-repository/path/to/image_page12_0.png)
+![Picture2](https://github.com/user-attachments/assets/1246df15-bc8d-4cbb-8781-4229ef1180a6)
+
+
 
 | Class  | Precision | Recall | mAP 50 | mAP 50:90 |
 |--------|-----------|--------|--------|-----------|
@@ -84,7 +93,10 @@ The pre-trained YOLOv9 model was fine-tuned on the Kvasir dataset. Initial train
 
 By converting images from RGB to HSV color space, we observed better performance in detecting polyps due to improved handling of light reflections on polyp surfaces.
 
-![HSV Transformation](https://raw.githubusercontent.com/your-repository/path/to/image_page13_0.png)
+
+
+![image](https://github.com/user-attachments/assets/cc9004eb-3412-4f0d-a0e0-941e09074fb4)
+
 
 | Class  | Precision | Recall | mAP 50 | mAP 50:90 |
 |--------|-----------|--------|--------|-----------|
@@ -96,7 +108,8 @@ By converting images from RGB to HSV color space, we observed better performance
 
 Adding geometric transformations such as shearing, translation, and rotation did not significantly improve the model's performance. However, these experiments provided valuable insights into the effects of different augmentations.
 
-![Geometric Transformations](https://raw.githubusercontent.com/your-repository/path/to/image_page14_0.png)
+![image](https://github.com/user-attachments/assets/5322240b-bbc6-4ce2-a7da-f63dea47b7f7)
+
 
 | Class  | Precision | Recall | mAP 50 | mAP 50:90 |
 |--------|-----------|--------|--------|-----------|
